@@ -5,7 +5,7 @@ using the Exchange Crypto Graviex API
 from APIGraviex import APIGraviex
 APIGraviex = APIGraviex(Access, Secret)
 
-# Example
+# Examples
 print(APIGraviex.timestamp())
 --
     1550236059
@@ -29,3 +29,8 @@ print(APIGraviex.ticker('esbcbtc'))
 print(APIGraviex.me())  
 --
     {'name': None, 'sn': 'PEXYXYXYXYXO', 'accounts_filtered': [{'currency': 'gio', 'name': 'GravioCoin', 'locked': '0.0', 'is_coin':          True, 'balance': '0.0', 'status': 'warning', 'is_purged': False}, {'currency': 'btc', 'name': 'Bitcoin', 'locked': '0.001721694',           'is_coin': True, 'balance': '0.000000000425076', 'status': 'ok', 'is_purged': False},  ...
+
+print(APIGraviex.get_order_market('xmxbtc'))  
+--
+        [{'state': 'wait', 'ord_type': 'limit', 'id': 20257161, 'price': '0.000003', 'trades_count': 0, 'created_at': '2019-02-             15T12:53:46Z', 'market': 'satcbtc', 'volume': '573.898', 'at': 1550235226, 'side': 'buy', 'remaining_volume': '573.898',                'executed_volume': '0.0', 'avg_price': '0.0'}]
+

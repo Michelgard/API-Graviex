@@ -9,7 +9,7 @@ APIGraviex = APIGraviex(Access, Secret)
 print(APIGraviex.timestamp())
     1550236059
 
-print(APIGraviex.market())
+print(APIGraviex.market())  
     [{'name': 'GIO/BTC', 'id': 'giobtc'},
      {'name': 'GIO/DOGE', 'id': 'giodoge'},
      {'name': 'GIO/LTC', 'id': 'gioltc'},

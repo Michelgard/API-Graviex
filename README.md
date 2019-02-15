@@ -36,3 +36,9 @@ print(APIGraviex.get_order_market('xmxbtc'))
 
 for all order print(APIGraviex.get_order_market('all'))
 --
+
+Place order 'buy' or 'sell' : print (APIGraviex.put_orders('satcbtc', 'buy', '7851.5809' , '0.000003300'))
+--
+
+Clear orders : print(APIGraviex.clear_orders())
+--

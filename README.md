@@ -35,10 +35,7 @@ print(APIGraviex.get_order_market('xmxbtc'))
         [{'state': 'wait', 'ord_type': 'limit', 'id': 20257161, 'price': '0.000003', 'trades_count': 0, 'created_at': '2019-02-             15T12:53:46Z', 'market': 'satcbtc', 'volume': '573.898', 'at': 1550235226, 'side': 'buy', 'remaining_volume': '573.898',                'executed_volume': '0.0', 'avg_price': '0.0'}]
 
 for all order print(APIGraviex.get_order_market('all'))
---
 
 Place order 'buy' or 'sell' : print (APIGraviex.put_orders('satcbtc', 'buy', '7851.5809' , '0.000003300'))
---
 
 Clear orders : print(APIGraviex.clear_orders())
---

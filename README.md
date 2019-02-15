@@ -7,7 +7,7 @@ APIGraviex = APIGraviex(Access, Secret)
 
 # Example
 print(APIGraviex.timestamp())
-==
+--
     1550236059
 
 print(APIGraviex.market())  
